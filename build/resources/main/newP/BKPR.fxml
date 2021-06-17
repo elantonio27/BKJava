@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<!-- fx:controller="newP.BKPR" xmlns="http://javafx.com/javafx/8.0.141"-->
+<AnchorPane prefHeight="496.0" prefWidth="796.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" >
+    <children>
+        <Label fx:id="lblOutput" layoutX="91.0" layoutY="129.0" prefHeight="17.0" prefWidth="118.0" />
+        <Button fx:id="btntest" layoutX="646.0" layoutY="29.0" mnemonicParsing="false" text="Say Hello" />
+      <ListView fx:id="listBPos" layoutX="25.0" layoutY="84.0" prefHeight="298.0" prefWidth="249.0" />
+      <ListView fx:id="listMPos" layoutX="293.0" layoutY="84.0" prefHeight="298.0" prefWidth="242.0" />
+      <MenuBar layoutY="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+    </children>
+</AnchorPane>
